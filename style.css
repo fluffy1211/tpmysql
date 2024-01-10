@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: center;
+}
+h1 {
+    color: #333;
+}
+#nosProduits {
+    margin-top: 0px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    
+}
+#login {
+    margin-top: 10px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    
+}
+h1 {
+    color: black;
+}
+#stylo {
+    display: inline-block;
+    margin-top: 0px;
+    padding: 10px 20px;
+    background-color: beige;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    
+    
+   
+}
+
+#crayon {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: beige;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    
+}
+
+#cahier {
+    margin-top: 10px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: beige;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    
+}
+#nosProduits:hover, #login:hover{
+    transform: scale(1.2);
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+.form {
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   
+
+}
