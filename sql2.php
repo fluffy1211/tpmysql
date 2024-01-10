@@ -2,8 +2,20 @@
 
 $connexion = new mysqli('localhost:3306', 'root', 'root', 'php_shop')
 
-$req = 'SELECT TOP 20
-        FROM `villes_france_free`
-        WHERE `ville_nom`';
+$req = 'SELECT * FROM `products`'
 
-$connexion->query($req);
+$products = $connexion->query($req);
+
+foreach($products as $product) :
+
+?>
+
+<h2>Nom du produit : <?= $product['name'] ?></h2>
+<h2>Catégorie du produit : <?= $product['catégorie'] ?></h2>
+<h2>Prix : <?= $product['price'] ?></h2>
+
+<?php endforeach ?>
+        
+</body>
+
+</html>
